@@ -1,6 +1,6 @@
 {
   "name": "zoom-msdk-rn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A react-native wrapper for Zoom Meeting SDK",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -22,7 +22,9 @@
     "!**/__mocks__",
     "!example/*",
     "!scripts/*",
-    "!docs/"
+    "!docs/",
+    "tsconfig.build.json",
+    "tsconfig.json"
   ],
   "scripts": {
     "test": "jest",
